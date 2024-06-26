@@ -10,7 +10,7 @@ const Page = () => {
     <Nav />
     </div>
     <div className="hero h-[85vh] flex justify-center  ">
-      < Hero className="w-[80vw " />
+      < Hero className="w-[80vw] " />
     </div>
     </main>
   )
