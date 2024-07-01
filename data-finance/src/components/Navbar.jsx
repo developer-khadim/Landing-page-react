@@ -21,8 +21,8 @@ const Navbar = () => {
                 <li className="p-4">About</li>
                 <li className="p-4">Contact</li>
             </ul>
-            <div onClick={handleNav} className="cursor-pointer md:hidden">
-                {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
+            <div onClick={handleNav} className="cursor-pointer md:hidden transition-transform duration-300 ease-in-out">
+                {nav ? <AiOutlineClose size={25} className="transform rotate-180" /> : <AiOutlineMenu size={25} className="transform rotate-0" />}
             </div>
             <div
                 className={`fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] px-4 pt-8 transition-transform duration-300 ${

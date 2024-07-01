@@ -3,8 +3,8 @@ import Hero from './components/Hero';
 
 const App = () => {
   return (
-    <div className='' >
-    <Navbar/> 
+    <div className='w-full ' >
+    <Navbar/>
     <Hero/>
     </div>
   )
